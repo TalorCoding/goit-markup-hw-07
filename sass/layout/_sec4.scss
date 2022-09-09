@@ -1,4 +1,4 @@
-.section-4-title {
+.clients__title {
     font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -9,14 +9,14 @@ color: #212121;
 margin-bottom: 50px;
 }
 
-.section-4-list {
+.clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 
-.section-4-link {
+.clients__link {
     fill: #AFB1B8;
     border: 1.5px solid #AFB1B8;
     border-radius: 5px;

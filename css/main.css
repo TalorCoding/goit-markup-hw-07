@@ -317,13 +317,13 @@ address {
   margin-bottom: 50px;
 }
 
-.section-2-list {
+.section-2__pictures {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.section-2-card {
+.section-2__card {
   position: relative;
 }
 
@@ -350,7 +350,7 @@ address {
   background-color: var(--secondary-bgr-color);
 }
 
-.section-3-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -359,7 +359,7 @@ address {
   margin-bottom: 50px;
 }
 
-.section-3-name {
+.team_name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -367,19 +367,19 @@ address {
   letter-spacing: 0.03em;
 }
 
-.section-3-list {
+.team__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.section-3-list-item {
+.team__item {
   background-color: var(--main-light-color);
   border-radius: 5px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.section-3-text {
+.team__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -395,7 +395,7 @@ address {
   padding-bottom: 30px;
 }
 
-.section-3-soc {
+.team__soc {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -422,7 +422,7 @@ address {
   fill: #FFFFFF;
 }
 
-.section-4-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -432,13 +432,13 @@ address {
   margin-bottom: 50px;
 }
 
-.section-4-list {
+.clients__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.section-4-link {
+.clients__link {
   fill: #AFB1B8;
   border: 1.5px solid #AFB1B8;
   border-radius: 5px;
@@ -449,7 +449,7 @@ address {
   justify-content: center;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms, fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 125ms;
 }
-.section-4-link:hover, .section-4-link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1.5px solid #2196F3;
   fill: #2196F3;
 }
@@ -581,7 +581,7 @@ address {
   flex-direction: column;
 }
 
-.footer-location {
+.footer__location {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -590,11 +590,11 @@ address {
   color: var(--main-light-color);
   margin-top: 20px;
 }
-.footer-location:hover, .footer-location:focus {
+.footer__location:hover, .footer__location:focus {
   color: var(--main-light-color);
 }
 
-.footer-mail, .footer-tel {
+.footer__mail, .footer__tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -604,20 +604,20 @@ address {
   margin-top: 9px;
 }
 
-.footer-stuff {
+.address {
   display: flex;
   gap: 70px;
   align-items: baseline;
 }
 
-.footer-soc {
+.footer__soc {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.footer-soc-title {
+.footer__soc-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -631,13 +631,13 @@ address {
   padding-left: 23px;
 }
 
-.footer-soc-list {
+.footer__soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.footer-soc-list-link {
+.footer__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -649,10 +649,10 @@ address {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-list-link:hover, .footer-soc-list-link:focus {
+.footer__link:hover, .footer__link:focus {
   background-color: #2196F3;
 }
-.footer-soc-list-link:hover .footer-soc-list-icon, .footer-soc-list-link:focus .footer-soc-list-icon {
+.footer__link:hover .footer-soc-list-icon, .footer__link:focus .footer-soc-list-icon {
   fill: #FFFFFF;
 }
 

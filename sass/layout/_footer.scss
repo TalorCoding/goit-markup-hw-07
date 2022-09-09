@@ -35,7 +35,7 @@ max-height: 31px;
     flex-direction: column
 }
 
-.footer-location {
+.footer__location {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -50,7 +50,7 @@ margin-top: 20px;
 
 
 
-.footer-mail, .footer-tel {
+.footer__mail, .footer__tel {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -60,20 +60,20 @@ color: var(--footer-contact-color);
 margin-top: 9px;
 }
 
-.footer-stuff {
+.address {
     display: flex;
     gap: 70px;
     align-items: baseline;
 }
 
-.footer-soc {
+.footer__soc {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.footer-soc-title {
+.footer__soc-title {
     font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -87,13 +87,13 @@ color: var(--main-light-color);
     padding-left: 23px;
 }
 
-.footer-soc-list {
+.footer__soc-list {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.footer-soc-list-link {
+.footer__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
