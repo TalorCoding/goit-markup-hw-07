@@ -69,10 +69,6 @@ cursor: pointer;
 }
 }
 
-
-
-
-
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -107,10 +103,6 @@ border-radius: 4px;
 }
 }
 
-
-
-
-
 .input-field {
     margin-bottom: 10px;
     
@@ -126,12 +118,6 @@ border-radius: 4px;
     top: 50%;
     transform: translateY(-50%);
 }
-
-
-/*
-.form-input:focus + .modal-icon {
-    fill: #2196F3;
-}*/
 
 .modal-text {
     width: 100%;
@@ -161,9 +147,6 @@ border-radius: 4px;
 
 }
 
-
-
-
 .check-text {
     font-weight: 400;
 font-size: 14px;
@@ -175,17 +158,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-/*
-.check-text::before {
-    content: '';
-    width: 16px;
-    height: 15px;
-    border: 2px solid #090b13;
-    border-radius: 3px;
-    display: block;
-    margin-right: 5px;
-    transition: backgound-color 300ms linear;
-}*/
 
 
 .input-check:checked + .check-text span {
